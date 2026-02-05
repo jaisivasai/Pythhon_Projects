@@ -1,0 +1,5 @@
+f=open('appeand-m1.txt', 'a')
+print(f.tell())
+f.write(' is a god boy')
+print(f.tell())
+f.close()

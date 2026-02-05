@@ -1,0 +1,5 @@
+print(str())
+print(list())
+print(tuple())
+print(set())
+print(dict())

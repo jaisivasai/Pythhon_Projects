@@ -1,0 +1,41 @@
+class sbiBank:
+    bname='btm'
+
+    def __init__(self,name,gender,mob,bal,acco):
+        self.name = name
+        self.gender = gender
+        self.mob = mob
+        self.bal = bal
+        self.acco = acco
+
+    def Details(self):
+        print(f'name :- {self.name}')
+        print(f'gender :- {self.gender}')
+        print(f'mob :- {self.mob}')
+        print(f'bal :- {self.bal}')
+        print(f'acco :- {self.acco}')
+
+    def withdraw(self):
+        n=int(input('Enter the amount:-'))
+        if n<=self.bal:
+            self.bal-=n
+            print('Transaction Successful')
+            print(f'Remaining balance is  -- {self.bal}')
+        else:
+            print('Insufficient balance')
+
+    def Deposite(self):
+        n=int(input('Enter the amount:-'))
+        if n<=100000:
+            self.bal+=n
+            print('Transaction Successful')
+            print(f'Main balance is  -- {self.bal}')
+        else:
+            print('Daily limit Over')
+            print(f'Main balance is  -- {self.bal}')
+
+custmer1=sbiBank('hari','M',4145789,1000,'HARI7101175')
+custmer2=sbiBank('sai','M',14789654,20000,'SAO098765432')
+
+custmer1.withdraw()
+

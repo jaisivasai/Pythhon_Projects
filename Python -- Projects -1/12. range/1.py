@@ -1,0 +1,6 @@
+print(range(5))
+print(range(5,10))
+print(list(range(5)))
+print(list(range(5,10)))
+print(list(range(10,0,1)))
+print(list(range(11,2,-1)))

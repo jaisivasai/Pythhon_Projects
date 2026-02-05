@@ -1,0 +1,13 @@
+A= 'ENGINEERING'
+print('Here we are using Finding the given sub string -------- index method using')
+print(A.index('E',1,7))
+print(A.index('NG',1,7))
+print(A.index('NG',2))
+print(A.index('I',3,7))
+print(A.index('I',5,10))
+print('Here we are using Finding the given sub string -------- rindex method using')
+print(A.rindex('E',1,7))
+print(A.rindex('NG',1,7))
+print(A.rindex('NG',2))
+print(A.rindex('I',3,7))
+print(A.rindex('I',5,10))

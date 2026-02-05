@@ -1,0 +1,5 @@
+f=open(file='m1.txt', mode='w')
+print(f.name,f.mode,f.encoding,f.close,sep="   ")
+print(f)
+f.close()
+print(f.close)

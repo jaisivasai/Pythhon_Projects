@@ -1,0 +1,6 @@
+f = open('1 image .png','rb')
+a =f.read()
+b = open('3 image.png','wb')
+b.write(a)
+b.close()
+f.close()

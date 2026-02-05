@@ -1,0 +1,5 @@
+print(bool(1+0j))
+print(bool(1+2j))
+print(bool(-0+0j))
+print(bool(120+223j))
+print(bool(0+0j))
